@@ -1,5 +1,5 @@
 variable "pipc"{
- // type = map(object())
+ type = map(object())
 }
 resource "azurerm_public_ip" "pipblock" {
   for_each = var.pipc
