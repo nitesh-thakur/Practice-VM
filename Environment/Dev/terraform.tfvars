@@ -15,7 +15,7 @@ vnetp = {
 
 subnetp = {
   subnet1 = {
-    name             = "frontend1-subnet"
+    name             = "frontend-subnet"
     vnet_name        = "Vnet-zone"
     rg_name          = "rg-zone"
     address_prefixes = ["10.0.1.0/16"]
